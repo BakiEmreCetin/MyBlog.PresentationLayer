@@ -10,6 +10,7 @@ namespace MyBlog.PresentationLayer.Areas.Writer.Controllers
     {
         private readonly UserManager<AppUser> _userManager;
         private readonly IArticleService _articleService;
+
         public BlogController(UserManager<AppUser> userManager, IArticleService articleService)
         {
             _userManager = userManager;
